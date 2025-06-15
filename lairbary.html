@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lairbrary Questionnaire</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html">Home</a>
+    <a href="keepers.html">Keeper's Space</a>
+  </header>
+
+  <main>
+    <section class="questionnaire">
+      <h1>Let’s Find You a Book</h1>
+      <p>No pressure. Just a few questions to figure out what’s missing on your shelf.</p>
+
+      <form id="bookForm">
+        <!-- Category 1: Mood & Feel -->
+        <fieldset>
+          <legend>Atmosphere</legend>
+          <label>What kind of world do you want to disappear into?
+            <input type="text" name="world" />
+          </label>
+
+          <label>Are you craving something soft and slow, or sharp and fast?
+            <input type="text" name="pace" />
+          </label>
+
+          <label>Do you want to be comforted or rattled a little?
+            <input type="text" name="comfort" />
+          </label>
+
+          <label>Are you looking to escape, or stay close to real life—but better?
+            <input type="text" name="escape" />
+          </label>
+        </fieldset>
+
+        <!-- Category 2: Preferences & Past Reads -->
+        <fieldset>
+          <legend>Instinctual Picks</legend>
+          <label>Name a book you’ve reread (or wanted to). Why?
+            <textarea name="reread"></textarea>
+          </label>
+
+          <label>What’s a genre or theme you quietly avoid?
+            <input type="text" name="avoid" />
+          </label>
+
+          <label>Do you prefer a long, slow build or instant grip?
+            <input type="text" name="build" />
+          </label>
+
+          <label>Are you into messy characters or ones who have their act together?
+            <input type="text" name="characters" />
+          </label>
+        </fieldset>
+
+        <!-- Category 3: Energy & Capacity -->
+        <fieldset>
+          <legend>Where You’re At</legend>
+          <label>Are you in the mood for effort or ease?
+            <input type="text" name="effort" />
+          </label>
+
+          <label>Do you want to think, feel, or forget?
+            <input type="text" name="emotion" />
+          </label>
+
+          <label>How’s your attention span lately—goldfish or hawk?
+            <input type="text" name="attention" />
+          </label>
+
+          <label>How do you want to feel after the last page?
+            <input type="text" name="after" />
+          </label>
+        </fieldset>
+
+        <!-- Category 4: Vibe Match & Style -->
+        <fieldset>
+          <legend>Vibes & Unknowns</legend>
+          <label>Do you like being wrecked by books, or nah?
+            <input type="text" name="wrecked" />
+          </label>
+
+          <label>What’s something you wish more books had?
+            <input type="text" name="wish" />
+          </label>
+
+          <label>Are you cool with weird, or do you want straight-up storytelling?
+            <input type="text" name="weird" />
+          </label>
+
+          <label>Do you need a plot, or is vibe enough?
+            <input type="text" name="plot" />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Book Energy Radar</legend>
+          <label>You’ve got 30 minutes and a cup of tea. What kind of story are you reaching for?
+            <input type="text" name="tea" />
+          </label>
+
+          <label>Who’s a character (from anything) you’d want to hang out with?
+            <input type="text" name="character" />
+          </label>
+
+          <label>What’s a book you hated that everyone else loved? (Be brave.)
+            <input type="text" name="hate" />
+          </label>
+
+          <label>Want to be challenged, or just enjoy the ride this time?
+            <input type="text" name="challenge" />
+          </label>
+        </fieldset>
+
+        <button type="submit">Send it</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Lairbrary. Curated with intention by a reader for readers.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff; /* white background for light, dreamy tone */
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+  width: 100%;
+  background-color: #2c3e50; /* navy blue */
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f4d35e; /* mustard yellow hover */
+}
+
+/* Main Content Styling */
+main {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Section Headings */
+h1, h2 {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #94c29b; /* soft sage green */
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #6c5b7b; /* soft lilac tone */
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+/* Optional: Add soft transitions for interactive feel */
+a, h1, h2 {
+  transition: all 0.3s ease;
+}
+.footer {
+  background-color: #2c3e50; /* same navy as navbar */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+}
+
+.footer p {
+  margin: 0;
+}
